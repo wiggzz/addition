@@ -11,7 +11,7 @@ int main() {
   assert(sum == 3);
   printf("✓\n");
   
-  printf("add(-5,-5) should equal 0. ");
+  printf("add(-5,5) should equal 0. ");
   sum = add(-5, 5);
   assert(sum == 0);
   printf("✓\n");
